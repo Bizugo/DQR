@@ -1,0 +1,13 @@
+jogo(entA, entB)
+{
+	pedra = 0
+	papel = 1
+	tesoura = 2
+	
+	if(entA == entB)
+		retorna "Empate"
+	else if (entA - entB == -2) || (entA - entB == 1)
+		retorna "entA ganhou"
+	else 
+		retorna "entB ganhou"
+}
